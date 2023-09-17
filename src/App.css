@@ -1,0 +1,33 @@
+.color-display {
+  width: 320px;
+  aspect-ratio: 1.5;
+  border-radius: 1rem;
+}
+
+.buttons-container {
+  margin-block: 1.5rem 1rem;
+}
+
+.buttons-container button + button {
+  margin-left: 0.5rem;
+}
+
+.result-container {
+  text-align: center;
+}
+
+.correct {
+  color: green;
+}
+
+.danger {
+  color: red;
+}
+
+.greenbg {
+  background-color: green;
+}
+
+.redbg {
+  background-color: red;
+}
